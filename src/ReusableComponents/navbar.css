@@ -22,6 +22,7 @@
 
 .navLink:hover{
     background-color: rgba(142, 198, 212, 0.342);
+    transition: .8s;
 }
 
 .navLink>span{
@@ -51,10 +52,12 @@
 .more:hover{
     cursor: pointer;
     background-color: rgba(198, 185, 211, 0.178);
+    transition: .3s ease-in-out;
 }
 
 .logo4{
     height: 20px;
     padding-right: 5px;
 
+    
 }

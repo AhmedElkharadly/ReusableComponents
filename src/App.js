@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Button from "./ReusableComponents/Button";
 import NavBar from "./ReusableComponents/NavBar";
+import Card from "./ReusableComponents/Card";
+
 class App extends React.Component {
   constructor() {
     super();
@@ -28,6 +30,33 @@ class App extends React.Component {
           <Button name="LogIn" color="black" HBC={this.HbtnClick} />
           <Button name="SignUp" color="White" bgColor="Black" HBC={() => {console.log("Put Here The Function")}} />
         </div>
+
+        <div style={{
+          padding: "10px",
+          display: "flex"
+          }}>
+        <Card 
+          imgSrc="pic.png" 
+          pBgColor="lightgray"
+          pCategory="Shose Category"
+          pName="Marsilia"
+          pPrice="50$"
+        />
+        <Card 
+          imgSrc="pic.png" 
+          pBgColor="lightgray"
+          pCategory="Shose Category"
+          pName="Marsilia"
+          pPrice="50$"
+        />
+        <Card 
+          imgSrc="pic.png" 
+          pBgColor="lightgray"
+          pCategory="Shose Category"
+          pName="Marsilia"
+          pPrice="50$"
+        />
+      </div>
       </div>
     );
   }

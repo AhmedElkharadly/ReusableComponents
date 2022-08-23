@@ -1,6 +1,7 @@
+
 .cardContainer0{
     /* z-index: 9?; */
-    margin: 30px;
+    margin: 10px;
     width: fit-content;
     border-radius: 16px;
     border: 2px solid transparent;
@@ -9,7 +10,7 @@
 .cardContainer0:hover{
     cursor: pointer;
     transition: 2s;
-    border: 2px solid rgba(138, 131, 145, 0.452);
+    border: 2px solid rgb(27, 211, 236);
     scale: 1.1;
 }
 .cardContainer{

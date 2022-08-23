@@ -22,7 +22,7 @@ function Card(props) {
       <h3 className="pCat">{props.pCategory}</h3>
       <h3 className="pName">{props.pName}</h3>
       <h3 className="pPrice">{props.pPrice}</h3>
-      {console.log(props.imgSrc)/* <Rating /> */}
+      {/* {console.log(props.imgSrc) <Rating />} */}
       </div>
     </div>
   );

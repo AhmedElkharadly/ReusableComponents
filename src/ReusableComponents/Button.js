@@ -1,3 +1,4 @@
+import { type } from "@testing-library/user-event/dist/type";
 import "./button.css";
 
 function Button(props) {
@@ -14,6 +15,7 @@ function Button(props) {
         fontFamily: props.fFamily,
         padding: props.pad
       }}
+      type={props.type}
       onClick={() => {props.HBC()}}
     >
       {props.name}

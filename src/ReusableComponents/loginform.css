@@ -12,12 +12,9 @@
     margin-left: 10px;
     padding: 0 0 0 4px;
     color: darkgray;
-    transition: 1.2s;
+    transition: .5s;
     border-radius: 20px;
     letter-spacing: 2px;
-}
-.emaillable:hover{
-    transition: 2s;
 }
 
 .emailInput, .passInput{
@@ -35,4 +32,10 @@
 .emailInput:focus, .passInput:focus{
     outline-color: rgba(65, 206, 224, 0.938);
     border: none;
+}
+.emailWarr{
+    font-size: 12px;
+    padding-left: 20px;
+    color: rgb(255, 0, 0);
+    
 }

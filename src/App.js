@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./ReusableComponents/Button";
-import NavBar from "./ReusableComponents/NavBar";
 import Card from "./ReusableComponents/Card";
 import LoginForm from "./ReusableComponents/LoginForm";
+import Button from "./ReusableComponents/Button";
+import NavBar from "./ReusableComponents/NavBar";
 import "./App.css";
 
 class App extends React.Component {
@@ -43,7 +43,7 @@ class App extends React.Component {
         imgh="70px" /> */}
 
         <div>
-          {/* <Button name="LogIn" color="black" HBC={this.HbtnClick} />
+          <Button name="LogIn" color="black" HBC={this.HbtnClick} />
           <Button
             name="SignUp"
             color="White"
@@ -51,9 +51,9 @@ class App extends React.Component {
             HBC={() => {
               console.log("Put Here The Function");
             }}
-          /> */}
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          />
             <LoginForm />
+          <div style={{ display: "flex", justifyContent: "center" }}>
           </div>
           <div
             style={{
